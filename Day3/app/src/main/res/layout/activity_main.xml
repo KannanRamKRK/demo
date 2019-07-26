@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3786"
+    >
+
+   <ImageView
+       android:id="@+id/icon"
+       android:layout_width="match_parent"
+       android:foregroundGravity="center"
+       android:background="#ffff"
+       android:paddingTop="8dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="7dp"
+       android:paddingBottom="7dp"
+       android:layout_height="55dp"
+       android:src="@drawable/ic_sweet"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="99dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/icon"/>
+
+    <TextView
+        android:id="@+id/raj"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_toRightOf="@+id/img"
+        android:textColor="#333"
+        android:background="#ffff"
+        android:paddingLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="69dp"
+        android:text="RajaLakshmi Sweets"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_1"
+        android:layout_toRightOf="@id/img"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="45dp"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Palakad,Kerala,India"
+        android:textStyle="italic"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_2"
+        android:layout_below="@id/img1"
+        android:layout_toRightOf="@id/img"
+        android:paddingLeft="45dp"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9876543210"
+        android:textStyle="italic"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/text"
+        android:layout_marginTop="15dp"
+        />
+
+<TextView
+    android:id="@+id/des"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Description"
+    android:layout_below="@id/img"
+    android:background="#fff"
+    android:gravity="center"
+    android:layout_marginTop="9dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:fontFamily="monospace"
+    android:textStyle="bold"
+    android:textColor="#ff4000"/>
+
+<TextView
+    android:id="@+id/descript"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/des"
+    android:text="                          We're a neighborhood sweet shop with all of the attention to detail that description might conjure up - but all of the product offerings you might associate with a longstanding national chain."
+   android:textSize="15dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    />
+    <TextView
+        android:id="@+id/ava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descript"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffa5"
+        android:background="#fff"
+        android:text="Available Sweets"
+        android:layout_marginBottom="8dp"
+        android:textSize="18dp"
+        />
+
+    <ImageView
+        android:id="@+id/la"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ava"
+        android:src="@drawable/ic_laddu"
+        android:layout_marginLeft="16dp"
+        />
+    <TextView
+        android:id="@+id/txt_la"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/ava"
+        android:layout_toRightOf="@id/la"
+        android:layout_marginRight="16dp"
+
+        android:layout_marginTop="8dp"
+        android:text="Laddu"
+        android:textSize="28dp"
+        android:textColor="#0000ff"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:background="#fff"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_la"
+        android:layout_toRightOf="@id/la"
+        android:layout_marginTop="-55dp"
+        android:text="15% offer"
+        android:textSize="20dp"
+        android:textColor="#ff4000"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/ja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/la"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_jalebi"
+        android:foregroundGravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/txt_ja"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/txt_la"
+        android:layout_toRightOf="@id/ja"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:text="Jalebi"
+        android:textSize="28dp"
+        android:textColor="#0000ff"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:background="#fff"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_ja"
+        android:layout_toRightOf="@id/ja"
+        android:layout_marginTop="-55dp"
+        android:text="13% offer"
+        android:layout_marginRight="16dp"
+        android:textSize="20dp"
+        android:textColor="#ff4000"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+
+        />
+    <ImageView
+        android:id="@+id/my"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ja"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/ic_mysore"
+        android:layout_marginRight="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_my"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/txt_ja"
+        android:layout_toRightOf="@id/ja"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:text="Mysorepa"
+        android:textSize="28dp"
+        android:textColor="#0000ff"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:background="#fff"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_my"
+        android:layout_toRightOf="@id/ja"
+        android:layout_marginTop="-55dp"
+        android:text="18% offer"
+        android:layout_marginRight="16dp"
+        android:textSize="20dp"
+        android:textColor="#ff4000"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my"
+        android:text="ThankYou!!!"
+        android:background="#fff"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#333"/>
+
+</RelativeLayout>
+</ScrollView>
