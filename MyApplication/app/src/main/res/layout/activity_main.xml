@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/before"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/before_cookie"
+    android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="15dp"
+        android:text="I'm so hungry"
+        android:textColor="#333"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="15dp"
+        android:layout_margin="16dp"
+        android:onClick="eatcookie"
+        android:text="EAT COOKIE" />
+
+</RelativeLayout>
