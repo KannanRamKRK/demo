@@ -57,12 +57,14 @@
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
                 android:alignmentMode="alignMargins"
                 android:columnCount="2"
                 android:columnOrderPreserved="false"
                 android:rowCount="4">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/PhoneCall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -71,6 +73,7 @@
                     android:background="#fff"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="dialpad"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
 
@@ -106,6 +109,7 @@
                     android:layout_margin="12dp"
                     android:background="#fff"
                     android:clickable="true"
+                    android:onClick="contact_list"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
@@ -142,6 +146,7 @@
                     android:layout_margin="12dp"
                     android:background="#fff"
                     android:clickable="true"
+                    android:onClick="openCamera"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
@@ -178,6 +183,7 @@
                     android:layout_margin="12dp"
                     android:background="#fff"
                     android:clickable="true"
+                    android:onClick="data"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
