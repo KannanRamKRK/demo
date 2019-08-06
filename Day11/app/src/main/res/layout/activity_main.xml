@@ -328,6 +328,7 @@
                     android:layout_margin="12dp"
                     android:background="#fff"
                     android:clickable="true"
+                    android:onClick="mail"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="6dp">
