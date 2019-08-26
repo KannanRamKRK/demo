@@ -1,0 +1,4 @@
+#Fri Aug 16 14:05:46 IST 2019
+base.0=C\:\\Users\\SIVA\\Desktop\\New folder\\exo-player-video-streaming\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+renamed.0=classes.dex
+path.0=classes.dex
