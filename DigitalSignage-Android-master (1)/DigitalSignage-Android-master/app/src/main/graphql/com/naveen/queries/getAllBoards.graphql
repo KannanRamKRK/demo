@@ -1,0 +1,14 @@
+query getAllBoards {
+  boards {
+    id
+    name
+    description
+    location
+    status
+    mac
+    owner {
+      email
+      phone
+    }
+  }
+}

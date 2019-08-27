@@ -1,0 +1,20 @@
+subscription boardContent($mac: String!, $apiKey: String!) {
+    boardContent(
+        where: {
+            mutation_in: CREATED
+            node: { board: { mac_contains: $mac, apiKey: $apiKey } }
+        }
+    ) {
+        node {
+            id
+            loop
+            board {
+                id
+            }
+            content {
+                id
+                url
+            }
+        }
+    }
+}
